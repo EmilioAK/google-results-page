@@ -1,0 +1,67 @@
+/* Reusable classes */
+    .center-children {
+        /* Magic CSS that centers an element within another. Taken from here: https://css-tricks.com/centering-css-complete-guide/ */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* General rules */
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+/* Header */
+    header {
+        display: grid;
+        grid-template-columns: max-content max-content 1fr;
+        margin: 30px;
+    }
+
+    .logo {
+        margin-right: 30px;
+        /* .center-children applied */
+    }
+    #nav-logo {
+        width: 92px; 
+        height: 30px;
+    }
+
+    #search-bar {
+        width: 530px;
+    }
+
+    .sign-in-items{
+        margin-left: auto;
+    }
+
+    .sign-in-btn {
+        background-color: #1a73e8;
+        color: white;
+        width: 97px;
+        height: 36px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    .search-option-tabs {
+        grid-column: 2;
+        
+        /* Puts the two categories at oposides sides of their grid container */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .result-tabs {
+        display: flex;
+    }
+    
+    .result-type {
+        margin-right: 1em;
+    }
+
+    .result-type:last-of-type {
+        margin-right: 0;
+    }
