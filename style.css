@@ -7,6 +7,10 @@
     }
 
 /* General rules */
+    * {
+    box-sizing: border-box;
+    }
+
     ul {
         list-style-type: none;
         padding: 0;
@@ -15,7 +19,7 @@
 /* Header */
     header {
         display: grid;
-        grid-template-columns: max-content max-content 1fr;
+        grid-template-columns: max-content minmax(100px, 530px) 1fr;
         margin: 30px;
     }
 
@@ -29,7 +33,7 @@
     }
 
     #search-bar {
-        width: 530px;
+        width: 100%;
     }
 
     .sign-in-items{
