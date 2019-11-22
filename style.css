@@ -17,9 +17,10 @@
     }
 
 /* Header */
-    header {
+    header, main {
         display: grid;
-        grid-template-columns: max-content minmax(100px, 530px) 1fr;
+        /* 122px is used here isntead of max-content so that I can re-use this grid for main. Not sure if this is the best method */
+        grid-template-columns: 122px minmax(100px, 530px) 1fr;
         grid-column-gap: 1em;
         margin: 30px;
     }
@@ -72,4 +73,9 @@
 
     .result-type:last-of-type {
         margin-right: 0;
+    }
+
+/* Main */
+    main * {
+        grid-column: 2;
     }
