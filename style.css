@@ -11,6 +11,16 @@
         box-sizing: border-box;
     }
 
+    html, body {
+        height:100%; 
+        margin:0; 
+     }
+     
+     body { 
+       display:flex; 
+       flex-direction:column; 
+     }
+
     body > * {
         display: grid;
         /* 122px is used here isntead of max-content so that I can re-use this grid for main. Not sure if this is the best method */
@@ -83,3 +93,9 @@
     main * {
         grid-column: 2;
     }
+
+    footer {
+        display: flex;
+        width: 100%;
+        margin: auto 0px 0px 0px;
+      }
