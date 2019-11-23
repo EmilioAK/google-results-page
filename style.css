@@ -93,6 +93,7 @@
 
 /* Main */
     main * {
+        /* Starts the content of main at the same column as the search bar and tabs. */
         grid-column: 2;
     }
 
