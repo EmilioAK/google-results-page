@@ -23,7 +23,7 @@
 
     body > * {
         display: grid;
-        /* 122px is used here isntead of max-content so that I can re-use this grid for main. Not sure if this is the best method */
+        /* 122px is used here isntead of max-content so that I can re-use this grid for sections other than header. Not sure if this is the best method */
         grid-template-columns: 122px minmax(100px, 530px) 1fr;
         grid-column-gap: 1em;
         /* Adds margin to the right and left of all sections */
