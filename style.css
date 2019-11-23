@@ -41,6 +41,7 @@
     header {
         /* Special rule for header since it's at the top and spacing there makes it look better. */
         margin-top: 30px;
+        
         border-bottom: 1px solid #ebebeb;
     }
 
@@ -58,6 +59,7 @@
     }
 
     .sign-in-items{
+        /* Moves it all the way to the right */
         margin-left: auto;
     }
 
@@ -72,9 +74,10 @@
     }
 
     .search-option-tabs {
+        /* Starts the content at the same column as the search bar */
         grid-column: 2;
         
-        /* Puts the two categories at oposides sides of their grid container */
+        /* Puts the two categories at oposides sides in their grid container */
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -103,6 +106,7 @@
     }
 
     .result-type:last-of-type {
+        /* Removes margin from the last item since it will shift layout */
         margin-right: 0;
     }
 
@@ -127,6 +131,8 @@
     .result-header {
         font-size: 20px;
         line-height: 1.3;
+
+        /* Removes the default margin since that's how google looks */
         margin-bottom: 0;
     }
 
