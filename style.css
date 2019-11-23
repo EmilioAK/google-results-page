@@ -166,6 +166,10 @@
         font-weight: bold;
     }
 
+    .related-searches ul li a:hover {
+        text-decoration: underline;
+    }
+
 
 /* Footer */
     footer {
