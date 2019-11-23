@@ -107,3 +107,12 @@
         background-color: #f2f2f2;
         color: #5f6368;
       }
+
+    footer > * {
+        /* Starts the content of footer at the same column as the search bar and tabs. */
+        grid-column: 2;
+        
+        /* Accounts for the left margin of 30px all other children of body have. */
+        /* Footer doesn't have this margin, so it's re-added to children instead, so that a background color of footer can be set. Possibly bad solution */
+        margin-left: 30px;
+    }
