@@ -212,6 +212,7 @@
 
     footer ul {
         display: flex;
+        flex-wrap: wrap;
         /* Margin added to match footer height of Google.coms footer. Not sure if this is the best method */
         margin-top: 10px;
         margin-bottom: 10px;
