@@ -119,13 +119,13 @@
         margin-top: 13px;
     }
 
-    main * {
+    main > * {
         /* Starts the content of main at the same column as the search bar and tabs. */
         grid-column: 2;
     }
 
     @media(max-width: 800px) {
-        main * {
+        main > * {
             grid-column: 1 / -1;
         }
     }
