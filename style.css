@@ -21,6 +21,7 @@
         flex-direction:column; 
 
         font-family: arial, sans-serif;
+        line-height: 1.5;
      }
 
     body > * {
@@ -123,6 +124,12 @@
         grid-column: 2;
     }
 
+    @media(max-width: 800px) {
+        main * {
+            grid-column: 1 / -1;
+        }
+    }
+
     .result-stats {
         font-size: 14px;
         color: #70757a;
@@ -130,7 +137,6 @@
 
     .result-header {
         font-size: 20px;
-        line-height: 1.3;
 
         /* Removes the default margin since that's how google looks */
         margin-bottom: 0;
@@ -143,7 +149,6 @@
 
     .result-url a {
         font-size: 16px;
-        line-height: 1.5;
         color: #006621;
         text-decoration: none;
     }
