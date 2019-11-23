@@ -116,3 +116,19 @@
         /* Footer doesn't have this margin, so it's re-added to children instead, so that a background color of footer can be set. Possibly bad solution */
         margin-left: 30px;
     }
+
+    footer ul {
+        display: flex;
+    }
+
+    footer ul li {
+        margin-right: 2em;
+    }
+      
+    footer ul li a{
+        color: #5f6368;
+        text-decoration: none;
+    }
+    footer ul li a:hover {
+        text-decoration: underline;
+    }
