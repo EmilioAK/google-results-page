@@ -98,6 +98,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .result-tabs:nth-child(1) {
+        padding-right: 2em;
+    }
     
     .result-type {
         margin-right: 1em;
